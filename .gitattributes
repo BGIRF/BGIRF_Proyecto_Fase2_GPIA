@@ -1,0 +1,6 @@
+# Fin de línea LF para que el Dockerfile y los scripts funcionen igual si se clona en Windows
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.docx binary
+*.joblib binary
