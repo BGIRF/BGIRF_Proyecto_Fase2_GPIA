@@ -142,10 +142,10 @@ pip install -r requirements-dev.txt && python -m pytest
 
 ## 7. Despliegue en la nube
 
-El **[Manual de despliegue](docs/Manual_despliegue_nube_ClaimCheckIA.pdf)** describe el proceso completo: requisitos,
+El **[Manual de despliegue](docs/BGIRF_Manual_despliegue_ClaimCheckIA.pdf)** describe el proceso completo: requisitos,
 estrategia (contenedor + PaaS), despliegue en Render con `render.yaml`, alternativa en Google Cloud Run,
 verificación posterior, actualización, reversión y monitoreo. El **[Documento de validación y
-pruebas](docs/Validacion_y_pruebas_ClaimCheckIA.pdf)** reúne las pruebas funcionales, los casos extremos y los
+pruebas](docs/BGIRF_Validacion_y_pruebas_ClaimCheckIA.pdf)** reúne las pruebas funcionales, los casos extremos y los
 resultados.
 
 ## 8. Entregables de la Fase 2
@@ -154,8 +154,8 @@ resultados.
 |---|---|
 | 1. Repositorio en GitHub: código, Dockerfile, configuración, evidencia de integración | Este repositorio · `app/`, `Dockerfile`, `docker-compose.yml`, `render.yaml`, `resultados/`, `docs/evidencias/` |
 | 2. Contenedor Docker funcional: Dockerfile e instrucciones | `Dockerfile` · `INSTRUCCIONES_DOCKER.md` |
-| 3. Manual de despliegue en la nube (PDF/Word) | `docs/Manual_despliegue_nube_ClaimCheckIA.docx` / `.pdf` |
-| 4. Documento de validación y pruebas (PDF/Word) | `docs/Validacion_y_pruebas_ClaimCheckIA.docx` / `.pdf` |
+| 3. Manual de despliegue en la nube (PDF/Word) | `docs/BGIRF_Manual_despliegue_ClaimCheckIA.docx` / `.pdf` |
+| 4. Documento de validación y pruebas (PDF/Word) | `docs/BGIRF_Validacion_y_pruebas_ClaimCheckIA.docx` / `.pdf` |
 
 ## 9. Limitaciones
 
