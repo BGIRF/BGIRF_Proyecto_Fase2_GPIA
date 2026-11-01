@@ -1,0 +1,17 @@
+# Lo que no necesita la imagen: reduce el contexto de construcción y evita filtrar archivos.
+.git
+.github
+.venv*
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+docs/
+resultados/
+scripts/
+src/
+*.md
+*.zip
+docker-compose.yml
+render.yaml
