@@ -1,0 +1,50 @@
+# Integración continua: en cada push se prueban el código y el contenedor.
+# Si este flujo termina en verde, Render despliega (render.yaml → autoDeployTrigger: checksPass).
+name: CI · pruebas y contenedor
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  contenedor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Obtener el código
+        uses: actions/checkout@v5
+
+      - name: Pruebas automatizadas dentro de Docker (etapa test)
+        run: docker build --target test -t claimcheck-api:test .
+
+      - name: Construir la imagen de ejecución
+        run: docker build -t claimcheck-api:ci .
+
+      - name: Levantar el contenedor con los límites del plan Free (512 MB)
+        run: docker run -d --name claimcheck -p 8000:8000 --memory 512m claimcheck-api:ci
+
+      - name: Esperar a que el healthcheck reporte "healthy"
+        run: |
+          for i in $(seq 1 30); do
+            estado=$(docker inspect -f '{{.State.Health.Status}}' claimcheck)
+            echo "intento $i: $estado"
+            [ "$estado" = "healthy" ] && exit 0
+            sleep 2
+          done
+          exit 1
+
+      - name: Validación de punta a punta contra el contenedor
+        run: python3 scripts/validar_contenedor.py --url http://localhost:8000 --etiqueta ci
+
+      - name: Logs del contenedor
+        if: always()
+        run: docker logs claimcheck
+
+      - name: Guardar resultados de la validación
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validacion-ci
+          path: resultados/validacion_ci.json
+          if-no-files-found: ignore
