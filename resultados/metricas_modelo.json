@@ -1,0 +1,173 @@
+{
+  "modelo": "claimcheck_router_v1",
+  "version": "1.0.0",
+  "C": 1,
+  "tau": 0.35,
+  "metricas_prueba": {
+    "globales": {
+      "accuracy": 0.8521,
+      "precision_macro": 0.8512,
+      "recall_macro": 0.8543,
+      "f1_macro": 0.8523,
+      "f1_ponderado": 0.8513,
+      "recall_salud": 0.8571,
+      "accuracy_casos_frontera": 0.6897,
+      "n_casos_frontera": 29,
+      "accuracy_estandar": 0.8857,
+      "cobertura_auto": 0.8462,
+      "exactitud_auto": 0.9091,
+      "exactitud_a_confirmar": 0.5385
+    },
+    "por_clase": {
+      "AUSENCIA": {
+        "precision": 0.881,
+        "recall": 0.9487,
+        "f1": 0.9136,
+        "soporte": 39
+      },
+      "MARKETING": {
+        "precision": 0.8158,
+        "recall": 0.7949,
+        "f1": 0.8052,
+        "soporte": 39
+      },
+      "NUTRIMENTAL": {
+        "precision": 0.8511,
+        "recall": 0.8163,
+        "f1": 0.8333,
+        "soporte": 49
+      },
+      "SALUD": {
+        "precision": 0.8571,
+        "recall": 0.8571,
+        "f1": 0.8571,
+        "soporte": 42
+      }
+    },
+    "matriz_confusion": {
+      "clases": [
+        "AUSENCIA",
+        "MARKETING",
+        "NUTRIMENTAL",
+        "SALUD"
+      ],
+      "valores": [
+        [
+          37,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          31,
+          4,
+          3
+        ],
+        [
+          4,
+          2,
+          40,
+          3
+        ],
+        [
+          0,
+          3,
+          3,
+          36
+        ]
+      ]
+    },
+    "curva_tau": [
+      {
+        "tau": 0.3,
+        "cobertura": 0.929,
+        "exactitud_auto": 0.8726
+      },
+      {
+        "tau": 0.35,
+        "cobertura": 0.8462,
+        "exactitud_auto": 0.9091
+      },
+      {
+        "tau": 0.4,
+        "cobertura": 0.7101,
+        "exactitud_auto": 0.95
+      },
+      {
+        "tau": 0.45,
+        "cobertura": 0.6509,
+        "exactitud_auto": 0.9545
+      },
+      {
+        "tau": 0.5,
+        "cobertura": 0.5444,
+        "exactitud_auto": 0.9565
+      },
+      {
+        "tau": 0.55,
+        "cobertura": 0.426,
+        "exactitud_auto": 0.9583
+      },
+      {
+        "tau": 0.6,
+        "cobertura": 0.2426,
+        "exactitud_auto": 1.0
+      },
+      {
+        "tau": 0.65,
+        "cobertura": 0.142,
+        "exactitud_auto": 1.0
+      },
+      {
+        "tau": 0.7,
+        "cobertura": 0.0769,
+        "exactitud_auto": 1.0
+      },
+      {
+        "tau": 0.75,
+        "cobertura": 0.0414,
+        "exactitud_auto": 1.0
+      },
+      {
+        "tau": 0.8,
+        "cobertura": 0.0059,
+        "exactitud_auto": 1.0
+      },
+      {
+        "tau": 0.85,
+        "cobertura": 0.0,
+        "exactitud_auto": null
+      },
+      {
+        "tau": 0.9,
+        "cobertura": 0.0,
+        "exactitud_auto": null
+      }
+    ]
+  },
+  "cumple_umbrales": {
+    "f1_macro": true,
+    "recall_salud": false
+  },
+  "referencia_actividad4_zero_shot": {
+    "MiniLM-L6": {
+      "f1_macro": 0.5372,
+      "accuracy": 0.5503,
+      "recall_salud": 0.8095,
+      "ms_claim_cpu": 377.1
+    },
+    "mDeBERTa-base": {
+      "f1_macro": 0.5994,
+      "accuracy": 0.6095,
+      "recall_salud": 0.8571,
+      "ms_claim_cpu": 10642.0
+    },
+    "XLM-R-large": {
+      "f1_macro": 0.5916,
+      "accuracy": 0.6154,
+      "recall_salud": 0.2857,
+      "ms_claim_cpu": 1810.2
+    }
+  }
+}

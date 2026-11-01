@@ -1,0 +1,10 @@
+# Dependencias de ejecución (lo único que se instala en la imagen de producción).
+# Versiones fijadas: el modelo .joblib se serializó con estas mismas versiones de
+# scikit-learn, numpy y scipy; cambiarlas puede romper la carga del artefacto.
+fastapi==0.162.0
+uvicorn==0.54.0
+pydantic==2.14.2
+scikit-learn==1.9.1
+numpy==2.5.4
+scipy==1.18.1
+joblib==1.6.0

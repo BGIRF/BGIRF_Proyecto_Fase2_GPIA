@@ -1,0 +1,241 @@
+id_claim,texto_claim,categoria,subtipo,referencia_normativa,dificultad,origen_registro,n_palabras,particion
+CLM-0001,Muy bajo en sal,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0002,"0 % conservadores, 100 % sabor",AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,6,test
+CLM-0003,Pan de caja con 30 % menos azúcar,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,8,dev
+CLM-0004,No contiene huevo ni lácteos,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,redaccion_manual,5,test
+CLM-0005,Hecho en Puebla,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,dev
+CLM-0006,Mejora tu concentración,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",estandar,redaccion_manual,3,test
+CLM-0007,Libre de cacahuate,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,dev
+CLM-0008,Empaque 100 % reciclable,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0009,"Fuente de calcio, que ayuda a mantener huesos fuertes",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,redaccion_manual,9,dev
+CLM-0010,El potasio contribuye al mantenimiento de la tensión arterial normal,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,10,test
+CLM-0011,Elaboración artesanal en pequeños lotes,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,test
+CLM-0012,Listo en 3 minutos,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0013,El ácido fólico contribuye al crecimiento de los tejidos maternos durante el embarazo,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,13,dev
+CLM-0014,Receta original,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,2,test
+CLM-0015,Ayuda a fortalecer tus defensas,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",estandar,redaccion_manual,5,test
+CLM-0016,Comercio justo,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0017,Sin sal añadida,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,3,test
+CLM-0018,Te ayuda a mantener tu peso,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",estandar,redaccion_manual,6,dev
+CLM-0019,Libre de transgénicos,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,dev
+CLM-0020,Seleccionado a mano,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0021,Receta tradicional de la abuela,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,dev
+CLM-0022,Bajo contenido de sodio,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0023,Fortificado con hierro y zinc,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,dev
+CLM-0024,"Con vitamina B6, que contribuye a regular la actividad hormonal",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,10,test
+CLM-0025,Ingredientes seleccionados,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0026,Contiene 3 g de fibra por porción,NUTRIMENTAL,cantidad_declarada,FDA 21 CFR 101.13(i); NOM-051-SCFI/SSA1-2010,estandar,redaccion_manual,7,dev
+CLM-0027,Los esteroles vegetales reducen el colesterol sanguíneo; el colesterol elevado es un factor de riesgo de cardiopatía coronaria,SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,18,test
+CLM-0028,No contiene nitritos añadidos,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0029,Ahora con menos azúcar,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,dev
+CLM-0030,No GMO,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0031,El magnesio contribuye a disminuir el cansancio y la fatiga,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,10,test
+CLM-0032,Con la mitad de grasa que la mayonesa tradicional,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,9,test
+CLM-0033,Barra de granola artesanal,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0034,Textura extra cremosa,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,dev
+CLM-0035,El favorito de las familias mexicanas,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,6,test
+CLM-0036,"Con vitamina E, que contribuye a la protección de las células frente al daño oxidativo",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,15,test
+CLM-0037,Formulado sin gluten,AUSENCIA,gluten,Reg. de Ejecución (UE) 828/2014; FDA 21 CFR 101.91,estandar,plantilla,3,dev
+CLM-0038,"Con vainilla de Papantla, Veracruz",MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,test
+CLM-0039,Libre de gluten,AUSENCIA,gluten,Reg. de Ejecución (UE) 828/2014; FDA 21 CFR 101.91,estandar,plantilla,3,dev
+CLM-0040,Yogur con el sabor de siempre,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,dev
+CLM-0041,Yogur con 30 % menos azúcar,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0042,Calidad de exportación,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0043,El consumo adecuado de ácido fólico antes y durante el embarazo puede reducir el riesgo de defectos del tubo neural,SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,20,test
+CLM-0044,Alto en potasio,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0045,Cereal con 30 % menos sodio,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0046,Elaborado sin huevo,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,dev
+CLM-0047,Alto contenido de fibra,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0048,Apto para celíacos,AUSENCIA,gluten,Reg. de Ejecución (UE) 828/2014; FDA 21 CFR 101.91,ambiguo,redaccion_manual,3,dev
+CLM-0049,Elaborado sin cafeína,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0050,Barra de granola con 25 % menos azúcar,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,8,dev
+CLM-0051,Queso panela con 30 % menos sodio,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,7,test
+CLM-0052,Sin jarabe de maíz de alta fructosa,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,7,dev
+CLM-0053,Ideal para compartir en familia,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,test
+CLM-0054,Rico en proteína,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0055,Bajo en azúcares y fuente de fibra,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,7,test
+CLM-0056,Desde 1952,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0057,"Con hierro, que contribuye a la función cognitiva normal",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,9,test
+CLM-0058,Pan de caja artesanal,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0059,Cuida tu salud intestinal con probióticos,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",estandar,redaccion_manual,6,dev
+CLM-0060,La vitamina C contribuye al funcionamiento normal del sistema inmunitario,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,10,test
+CLM-0061,"Integral, alto en fibra",NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,test
+CLM-0062,Hecho en Yucatán,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0063,El auténtico sabor de siempre,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,test
+CLM-0064,"Con hierro, que contribuye a la formación normal de glóbulos rojos y hemoglobina",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,13,test
+CLM-0065,No contiene gluten,AUSENCIA,gluten,Reg. de Ejecución (UE) 828/2014; FDA 21 CFR 101.91,estandar,plantilla,3,test
+CLM-0066,Excelente fuente de fibra,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0067,Deslactosada,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",ambiguo,redaccion_manual,1,test
+CLM-0068,La vitamina D contribuye al funcionamiento normal del sistema inmunitario,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,10,test
+CLM-0069,Hidratación para tu rendimiento deportivo,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",ambiguo,redaccion_manual,5,dev
+CLM-0070,El DHA contribuye al funcionamiento normal del cerebro,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,8,test
+CLM-0071,Pan de caja fuente de fibra,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0072,La vitamina C contribuye a la formación normal de colágeno,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,10,test
+CLM-0073,"Con fibra de centeno, que contribuye al funcionamiento intestinal normal",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,10,test
+CLM-0074,Alto en magnesio,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,dev
+CLM-0075,Formulado sin aceite de palma,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0076,La vitamina C contribuye a mejorar la absorción del hierro,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,10,dev
+CLM-0077,Cero azúcar,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,2,test
+CLM-0078,Descafeinado,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,1,dev
+CLM-0079,Sin hormonas añadidas,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,dev
+CLM-0080,La fibra de salvado de trigo contribuye a acelerar el tránsito intestinal,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,12,test
+CLM-0081,Alto contenido de vitamina D,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,dev
+CLM-0082,Reduce el riesgo de diabetes tipo 2,SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,7,test
+CLM-0083,La vitamina B6 contribuye a regular la actividad hormonal,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,9,test
+CLM-0084,Cultivado de forma sustentable,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0085,Hecho a mano,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0086,Sin gluten,AUSENCIA,gluten,Reg. de Ejecución (UE) 828/2014; FDA 21 CFR 101.91,estandar,redaccion_manual,2,test
+CLM-0087,Apoya tu energía durante todo el día,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",ambiguo,redaccion_manual,7,test
+CLM-0088,Contenido reducido de sodio,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,dev
+CLM-0089,Nuevo sabor mejorado,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0090,Formulado sin huevo,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,dev
+CLM-0091,0 % grasa,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,dev
+CLM-0092,Formulado sin soya,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,test
+CLM-0093,Los betaglucanos de avena contribuyen a mantener niveles normales de colesterol sanguíneo,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,12,test
+CLM-0094,Con 25 g de proteína por porción,NUTRIMENTAL,cantidad_declarada,FDA 21 CFR 101.13(i); NOM-051-SCFI/SSA1-2010,estandar,redaccion_manual,7,test
+CLM-0095,Receta tradicional de Sonora,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,dev
+CLM-0096,Alto en proteína: 20 g por porción,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,7,dev
+CLM-0097,Hecho con ingredientes naturales,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,test
+CLM-0098,No contiene soya,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,dev
+CLM-0099,Libre de gluten: menos de 20 mg/kg,AUSENCIA,gluten,Reg. de Ejecución (UE) 828/2014; FDA 21 CFR 101.91,estandar,redaccion_manual,7,test
+CLM-0100,Una dieta baja en grasas saturadas y colesterol puede reducir el riesgo de enfermedad cardiaca,SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,15,test
+CLM-0101,El ácido fólico contribuye a la síntesis normal de aminoácidos,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,10,test
+CLM-0102,Galletas con 25 % menos grasas saturadas,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,7,dev
+CLM-0103,"Con vitamina A, que contribuye al mantenimiento de la visión normal",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,redaccion_manual,11,dev
+CLM-0104,El hierro contribuye a la función cognitiva normal,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,8,test
+CLM-0105,La fibra de centeno contribuye al funcionamiento intestinal normal,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,9,dev
+CLM-0106,Para un corazón sano,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",estandar,redaccion_manual,4,test
+CLM-0107,Bajo en colesterol,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0108,Fuente de potasio,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0109,Bajo en sodio,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0110,Bebida de avena adicionada con vitamina D,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,7,test
+CLM-0111,Una porción cubre el 50 % de tu requerimiento diario de vitamina C,NUTRIMENTAL,cantidad_declarada,FDA 21 CFR 101.13(i); NOM-051-SCFI/SSA1-2010,estandar,redaccion_manual,13,test
+CLM-0112,Rico en fibra que favorece el tránsito intestinal,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,redaccion_manual,8,test
+CLM-0113,Sin grasa,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,2,test
+CLM-0114,"Con vitamina D, que contribuye al funcionamiento normal del sistema inmunitario",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,11,dev
+CLM-0115,Del campo a tu mesa,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,test
+CLM-0116,"Con yodo, que contribuye a la función cognitiva normal",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,9,test
+CLM-0117,Bueno para tus huesos,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",estandar,redaccion_manual,4,dev
+CLM-0118,Sin lactosa,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,redaccion_manual,2,test
+CLM-0119,Sin ingredientes de origen animal,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,5,test
+CLM-0120,Alto contenido de hierro,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0121,Buena fuente de vitamina D,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,dev
+CLM-0122,Salsa de tomate de receta original,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0123,Sin glutamato monosódico añadido,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0124,Cereal con el sabor de siempre,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,dev
+CLM-0125,Libre de conservadores,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0126,Sin saborizantes artificiales,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0127,Leche artesanal,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,2,dev
+CLM-0128,Elaborado sin glutamato monosódico,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0129,Favorece una digestión saludable,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",estandar,redaccion_manual,4,test
+CLM-0130,Elaborado con leche de vacas de pastoreo de Los Altos de Jalisco,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,12,test
+CLM-0131,Puro jugo de naranja,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,test
+CLM-0132,Salsa de tomate con 25 % menos azúcar,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,8,test
+CLM-0133,Sin conservadores ni colorantes,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,dev
+CLM-0134,Nueva presentación,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,2,test
+CLM-0135,No contiene colorantes artificiales,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0136,Sin conservadores,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0137,Libre de grasas trans,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,dev
+CLM-0138,Natural y saludable,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",ambiguo,redaccion_manual,3,test
+CLM-0139,Cereal adicionado con vitamina D,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0140,Sin transgénicos,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,2,test
+CLM-0141,Alto en ácidos grasos omega-3,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0142,Café de altura de Chiapas,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,test
+CLM-0143,Contribuye a tu bienestar,SALUD,beneficio_generico,"Reg. (CE) 1924/2006, Art. 10(3)",ambiguo,redaccion_manual,4,test
+CLM-0144,"Masticar chicle sin azúcar ayuda a neutralizar los ácidos de la placa dental, un factor de riesgo de caries",SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,19,test
+CLM-0145,Irresistiblemente crujiente,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,dev
+CLM-0146,Bajo contenido de grasas saturadas,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0147,Tostado lentamente para un sabor más profundo,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,7,test
+CLM-0148,"Una dieta rica en frutas, verduras y granos enteros puede reducir el riesgo de algunos tipos de cáncer",SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,18,dev
+CLM-0149,Sin cafeína,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0150,"La fibra soluble de la avena, como parte de una dieta baja en grasas saturadas, puede reducir el riesgo de enfermedad coronaria",SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,22,test
+CLM-0151,Las proteínas contribuyen a conservar la masa muscular,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,8,test
+CLM-0152,Menos de 5 kcal por lata,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,6,test
+CLM-0153,Más proteína que un huevo,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,dev
+CLM-0154,El calcio contribuye al funcionamiento normal de los músculos,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,9,test
+CLM-0155,Barra de granola alta en proteína,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0156,Libre de aceite de palma,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0157,Sin aceite de palma,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0158,Energía natural para tu día,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,5,dev
+CLM-0159,Sin calorías,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0160,Orgánico certificado,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,2,dev
+CLM-0161,50 % menos sodio que la versión original,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,8,test
+CLM-0162,Fuente natural de fibra,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,test
+CLM-0163,25 % menos sodio que nuestras papas originales,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,8,test
+CLM-0164,Calidad premium,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0165,Sin nitritos ni nitratos añadidos,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,5,test
+CLM-0166,El selenio contribuye al funcionamiento normal de la tiroides,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,9,dev
+CLM-0167,Mango Ataulfo del Soconusco,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,test
+CLM-0168,El hierro contribuye a la formación normal de glóbulos rojos y hemoglobina,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,12,dev
+CLM-0169,Leche con 25 % menos grasa,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0170,Horneado todos los días,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,dev
+CLM-0171,Libre de lactosa,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,test
+CLM-0172,Hecho en Veracruz,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,dev
+CLM-0173,"Gracias a su contenido de hierro, ayuda a reducir el cansancio",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,redaccion_manual,11,test
+CLM-0174,Bajo en grasa,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,dev
+CLM-0175,Bajo valor energético,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0176,El calcio es necesario para el mantenimiento de los huesos en condiciones normales,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,13,dev
+CLM-0177,"Con ácido fólico, que contribuye a la síntesis normal de aminoácidos",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,11,test
+CLM-0178,Elaborado sin saborizantes artificiales,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0179,Aporta el 30 % del valor diario recomendado de calcio,NUTRIMENTAL,cantidad_declarada,FDA 21 CFR 101.13(i); NOM-051-SCFI/SSA1-2010,estandar,redaccion_manual,10,test
+CLM-0180,Sin azúcar añadido; contiene azúcares naturalmente presentes,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,7,test
+CLM-0181,Yogur con 30 % menos grasa,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0182,Las proteínas contribuyen al mantenimiento de los huesos en condiciones normales,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,11,dev
+CLM-0183,Receta tradicional de Puebla,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0184,Sabor intenso,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0185,No contiene lactosa,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,test
+CLM-0186,No contiene huevo,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,dev
+CLM-0187,Buena fuente de magnesio,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0188,Una ingesta adecuada de calcio y vitamina D a lo largo de la vida puede reducir el riesgo de osteoporosis,SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,20,test
+CLM-0189,Elaborado sin cacahuate,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,test
+CLM-0190,Alto contenido de vitamina C,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,dev
+CLM-0191,Pollo criado sin antibióticos,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,test
+CLM-0192,Hecho con fruta real,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,4,test
+CLM-0193,Galletas con 30 % menos azúcar,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0194,Galletas con 25 % menos azúcar,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0195,Ligero y crujiente,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,3,test
+CLM-0196,Madurado 12 meses,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0197,Light: 30 % menos calorías que la versión regular,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,9,test
+CLM-0198,Reducido en azúcares: 30 % menos que el producto de referencia,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,11,test
+CLM-0199,Queso panela de calidad superior,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0200,Light,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,1,dev
+CLM-0201,Leche descremada: 0.5 % de grasa,NUTRIMENTAL,cantidad_declarada,FDA 21 CFR 101.13(i); NOM-051-SCFI/SSA1-2010,estandar,redaccion_manual,6,test
+CLM-0202,No contiene conservadores,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,dev
+CLM-0203,Bebida de avena con el sabor de siempre,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,8,test
+CLM-0204,Sin edulcorantes artificiales,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,3,test
+CLM-0205,No contiene glutamato monosódico,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0206,Pan de caja de receta original,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,6,test
+CLM-0207,Elaborado en una planta libre de cacahuate,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,redaccion_manual,7,test
+CLM-0208,No contiene transgénicos,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0209,Edición limitada,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,dev
+CLM-0210,Libre de colorantes artificiales,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,dev
+CLM-0211,El magnesio contribuye al funcionamiento normal de los músculos,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,9,test
+CLM-0212,No contiene aceite de palma,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0213,Sin colorantes artificiales,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0214,100 % natural,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,3,dev
+CLM-0215,"Con vitamina C, que contribuye a la formación normal de colágeno",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,11,dev
+CLM-0216,Rico en vitamina D,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,test
+CLM-0217,El hierro contribuye a disminuir el cansancio y la fatiga,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,10,test
+CLM-0218,Ayuda a prevenir enfermedades del corazón,SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,6,test
+CLM-0219,Alto en proteína,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,test
+CLM-0220,Adicionado con vitaminas A y D,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,6,test
+CLM-0221,Las dietas bajas en sodio pueden reducir el riesgo de hipertensión arterial,SALUD,reduccion_riesgo,"Reg. (CE) 1924/2006, Art. 14; FDA 21 CFR 101.14 y 101.72-101.83",estandar,redaccion_manual,12,test
+CLM-0222,Atún en agua elaborado en pequeños lotes,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,7,test
+CLM-0223,Bajo en grasas saturadas,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",estandar,plantilla,4,dev
+CLM-0224,"Con magnesio, que contribuye a disminuir el cansancio y la fatiga",SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",ambiguo,plantilla,11,test
+CLM-0225,25 % menos azúcar que la versión original,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,plantilla,8,dev
+CLM-0226,Libre de frutos secos,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,redaccion_manual,4,test
+CLM-0227,Queso panela de receta original,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,dev
+CLM-0228,Con 300 mg de omega-3 (EPA y DHA) por porción,NUTRIMENTAL,cantidad_declarada,FDA 21 CFR 101.13(i); NOM-051-SCFI/SSA1-2010,estandar,redaccion_manual,10,dev
+CLM-0229,Sin aditivos,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,2,test
+CLM-0230,Elaborado sin aceite de palma,AUSENCIA,ingrediente_o_produccion,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,5,test
+CLM-0231,Pan de caja elaborado en pequeños lotes,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,plantilla,7,dev
+CLM-0232,Sin azúcares añadidos,NUTRIMENTAL,contenido_bajo_o_sin,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.13 y 101.60-101.62; NOM-051-SCFI/SSA1-2010",ambiguo,redaccion_manual,3,test
+CLM-0233,Rico en grasas monoinsaturadas,NUTRIMENTAL,contenido_alto_o_fuente,"Reg. (CE) 1924/2006, Anexo; FDA 21 CFR 101.54; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,4,dev
+CLM-0234,Hecho en México,MARKETING,marketing,"Reg. (UE) 1169/2011, Art. 7 (prácticas informativas leales); NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,3,test
+CLM-0235,Los ácidos grasos EPA y DHA contribuyen al funcionamiento normal del corazón,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,12,dev
+CLM-0236,El zinc contribuye al funcionamiento normal del sistema inmunitario,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,plantilla,9,dev
+CLM-0237,La vitamina D contribuye al mantenimiento de los huesos y dientes en condiciones normales,SALUD,funcion_nutrimento,"Reg. (CE) 1924/2006, Art. 13; Reg. (UE) 432/2012",estandar,redaccion_manual,14,test
+CLM-0238,Libre de soya,AUSENCIA,alergeno_intolerancia,"Reg. (UE) 1169/2011, Art. 36 (información voluntaria)",estandar,plantilla,3,test
+CLM-0239,Elaborado sin conservadores,AUSENCIA,aditivo,"Reg. (UE) 1169/2011, Art. 7; NOM-051-SCFI/SSA1-2010",estandar,plantilla,3,dev
+CLM-0240,El doble de calcio que la leche entera,NUTRIMENTAL,comparativa,"Reg. (CE) 1924/2006, Art. 9 y Anexo; FDA 21 CFR 101.13(j) y 101.56; NOM-051-SCFI/SSA1-2010",estandar,redaccion_manual,8,test

@@ -1,0 +1,17 @@
+# Blueprint de Render (infraestructura como código).
+# Render lo lee al crear el servicio desde "New → Blueprint" y construye la imagen con el Dockerfile.
+services:
+  - type: web
+    name: claimcheck-api
+    runtime: docker
+    plan: free                   # 0.1 CPU · 512 MB; se suspende tras 15 min sin tráfico
+    region: ohio
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: checksPass  # despliega solo si pasan las pruebas de GitHub Actions
+    envVars:
+      - key: LOG_LEVEL
+        value: INFO
+      - key: WEB_CONCURRENCY
+        value: "1"

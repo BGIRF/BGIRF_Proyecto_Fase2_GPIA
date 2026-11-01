@@ -1,0 +1,3 @@
+NAMES             IMAGE                  STATUS                        PORTS
+claimcheck-free   claimcheck-api:1.0.0   Up 41 seconds (healthy)       0.0.0.0:8001->8000/tcp
+claimcheck        claimcheck-api:1.0.0   Up About a minute (healthy)   0.0.0.0:8000->8000/tcp

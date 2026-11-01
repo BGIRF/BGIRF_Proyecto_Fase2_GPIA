@@ -1,0 +1,18 @@
+digraph D {
+  graph [rankdir=LR, fontname="DejaVu Sans", fontsize=11, nodesep=0.3, ranksep=0.45, pad=0.25, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=10, color="#c9d2cf", fillcolor="white", penwidth=1.2, margin="0.14,0.07"];
+  edge  [fontname="DejaVu Sans", fontsize=8.5, color="#52514e", arrowsize=0.7];
+
+  dev [label="Desarrollo local\nentrenar_modelo.py\npytest · docker compose", fillcolor="#f4f6f5"];
+  gh [label="Repositorio GitHub\nBGIRF_Proyecto_Fase2_GPIA", fillcolor="#e5eefa"];
+  ci [label="GitHub Actions (CI)\n1. build --target test (84 pruebas)\n2. build imagen\n3. validar_contenedor.py (50 pruebas)", fillcolor="#e1f3ef"];
+  render [label="Render · PaaS (plan Free)\nconstruye el Dockerfile\nhealth check /health\nHTTPS automático", fillcolor="#fbeedd"];
+  run [label="Alternativa: Google Cloud Run\ngcloud run deploy --source .", fillcolor="#f4f6f5", style="rounded,filled,dashed"];
+  usuario [label="Revisores\nhttps://claimcheck-api.onrender.com", fillcolor="#f2e9f8"];
+
+  dev -> gh [label="push / upload"];
+  gh -> ci [label="cada push"];
+  ci -> render [label="checks en verde\n(autoDeployTrigger:\nchecksPass)"];
+  gh -> run [style=dashed];
+  render -> usuario;
+}

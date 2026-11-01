@@ -1,0 +1,808 @@
+{
+  "meta": {
+    "url": "http://localhost:8001",
+    "etiqueta": "simulacion_render_free",
+    "fecha": "2026-10-29T21:02:53",
+    "cliente": "Python 3.13.18 · Linux",
+    "version_modelo": "1.0.0",
+    "umbral_confianza": 0.35
+  },
+  "resumen": {
+    "total": 50,
+    "aprobadas": 50,
+    "fallidas": 0,
+    "por_grupo": {
+      "Disponibilidad": {
+        "total": 6,
+        "aprobadas": 6
+      },
+      "Funcional": {
+        "total": 8,
+        "aprobadas": 8
+      },
+      "Reproducibilidad": {
+        "total": 3,
+        "aprobadas": 3
+      },
+      "Casos extremos": {
+        "total": 30,
+        "aprobadas": 30
+      },
+      "Rendimiento": {
+        "total": 3,
+        "aprobadas": 3
+      }
+    }
+  },
+  "reproducibilidad": {
+    "n": 169,
+    "iguales": 169,
+    "f1_macro_api": 0.8523,
+    "errores": 25,
+    "errores_marcados": 15,
+    "errores_marcados_por_tau": 12,
+    "errores_marcados_por_regla": 3,
+    "claims_marcados": 30,
+    "exactitud_sin_confirmacion": 0.9281,
+    "cobertura_sin_confirmacion": 0.8225,
+    "errores_detalle": [
+      {
+        "texto": "0 % conservadores, 100 % sabor",
+        "real": "AUSENCIA",
+        "predicha": "MARKETING",
+        "confianza": 0.3645,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Listo en 3 minutos",
+        "real": "MARKETING",
+        "predicha": "NUTRIMENTAL",
+        "confianza": 0.3578,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Comercio justo",
+        "real": "MARKETING",
+        "predicha": "NUTRIMENTAL",
+        "confianza": 0.2974,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.30 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Sin sal añadida",
+        "real": "NUTRIMENTAL",
+        "predicha": "AUSENCIA",
+        "confianza": 0.5873,
+        "marcado": true,
+        "motivos": [
+          "La regla R06 reconoce un claim nutrimental, pero el modelo propuso AUSENCIA."
+        ]
+      },
+      {
+        "texto": "El favorito de las familias mexicanas",
+        "real": "MARKETING",
+        "predicha": "SALUD",
+        "confianza": 0.2845,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.28 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Calidad de exportación",
+        "real": "MARKETING",
+        "predicha": "NUTRIMENTAL",
+        "confianza": 0.2903,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.29 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Deslactosada",
+        "real": "AUSENCIA",
+        "predicha": "MARKETING",
+        "confianza": 0.2932,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.29 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Cultivado de forma sustentable",
+        "real": "MARKETING",
+        "predicha": "AUSENCIA",
+        "confianza": 0.2952,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.30 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Apoya tu energía durante todo el día",
+        "real": "SALUD",
+        "predicha": "MARKETING",
+        "confianza": 0.4163,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Una dieta baja en grasas saturadas y colesterol puede reducir el riesgo de enfermedad cardiaca",
+        "real": "SALUD",
+        "predicha": "NUTRIMENTAL",
+        "confianza": 0.3926,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Una porción cubre el 50 % de tu requerimiento diario de vitamina C",
+        "real": "NUTRIMENTAL",
+        "predicha": "SALUD",
+        "confianza": 0.3568,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Del campo a tu mesa",
+        "real": "MARKETING",
+        "predicha": "SALUD",
+        "confianza": 0.3912,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Favorece una digestión saludable",
+        "real": "SALUD",
+        "predicha": "MARKETING",
+        "confianza": 0.3042,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.30 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Natural y saludable",
+        "real": "SALUD",
+        "predicha": "MARKETING",
+        "confianza": 0.5297,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Cereal adicionado con vitamina D",
+        "real": "NUTRIMENTAL",
+        "predicha": "MARKETING",
+        "confianza": 0.312,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.31 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Café de altura de Chiapas",
+        "real": "MARKETING",
+        "predicha": "NUTRIMENTAL",
+        "confianza": 0.3015,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.30 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "La fibra soluble de la avena, como parte de una dieta baja en grasas saturadas, puede reducir el riesgo de enfermedad coronaria",
+        "real": "SALUD",
+        "predicha": "NUTRIMENTAL",
+        "confianza": 0.3578,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Sin calorías",
+        "real": "NUTRIMENTAL",
+        "predicha": "AUSENCIA",
+        "confianza": 0.5762,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Fuente natural de fibra",
+        "real": "NUTRIMENTAL",
+        "predicha": "MARKETING",
+        "confianza": 0.3665,
+        "marcado": false,
+        "motivos": []
+      },
+      {
+        "texto": "Mango Ataulfo del Soconusco",
+        "real": "MARKETING",
+        "predicha": "SALUD",
+        "confianza": 0.3433,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.34 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Gracias a su contenido de hierro, ayuda a reducir el cansancio",
+        "real": "SALUD",
+        "predicha": "NUTRIMENTAL",
+        "confianza": 0.3489,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.35 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Aporta el 30 % del valor diario recomendado de calcio",
+        "real": "NUTRIMENTAL",
+        "predicha": "SALUD",
+        "confianza": 0.3275,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.33 menor que el umbral τ = 0.35."
+        ]
+      },
+      {
+        "texto": "Sin azúcar añadido; contiene azúcares naturalmente presentes",
+        "real": "NUTRIMENTAL",
+        "predicha": "AUSENCIA",
+        "confianza": 0.4575,
+        "marcado": true,
+        "motivos": [
+          "La regla R01 reconoce un claim nutrimental, pero el modelo propuso AUSENCIA."
+        ]
+      },
+      {
+        "texto": "Sin azúcares añadidos",
+        "real": "NUTRIMENTAL",
+        "predicha": "AUSENCIA",
+        "confianza": 0.5672,
+        "marcado": true,
+        "motivos": [
+          "La regla R01 reconoce un claim nutrimental, pero el modelo propuso AUSENCIA."
+        ]
+      },
+      {
+        "texto": "El doble de calcio que la leche entera",
+        "real": "NUTRIMENTAL",
+        "predicha": "SALUD",
+        "confianza": 0.3415,
+        "marcado": true,
+        "motivos": [
+          "Confianza 0.34 menor que el umbral τ = 0.35."
+        ]
+      }
+    ]
+  },
+  "rendimiento": {
+    "secuencial": {
+      "n": 100,
+      "p50_ms": 13.11,
+      "p95_ms": 95.26,
+      "max_ms": 143.3,
+      "media_ms": 48.82,
+      "latencias_ms": [
+        91.013,
+        5.274,
+        94.39,
+        5.919,
+        93.745,
+        5.421,
+        4.925,
+        93.085,
+        5.869,
+        90.29,
+        8.211,
+        91.692,
+        6.451,
+        93.528,
+        5.255,
+        94.319,
+        5.508,
+        94.203,
+        6.136,
+        93.494,
+        6.425,
+        95.251,
+        5.664,
+        93.725,
+        6.186,
+        94.47,
+        5.708,
+        100.334,
+        5.299,
+        90.741,
+        95.365,
+        5.307,
+        94.943,
+        6.398,
+        95.233,
+        4.882,
+        93.374,
+        6.576,
+        94.559,
+        4.978,
+        94.212,
+        6.113,
+        93.755,
+        7.311,
+        90.816,
+        5.297,
+        4.74,
+        92.474,
+        97.708,
+        7.098,
+        94.635,
+        5.567,
+        92.13,
+        6.105,
+        94.161,
+        98.092,
+        6.365,
+        5.296,
+        90.449,
+        143.297,
+        18.009,
+        38.082,
+        5.528,
+        93.245,
+        4.864,
+        4.26,
+        95.256,
+        7.182,
+        88.158,
+        4.965,
+        94.466,
+        5.315,
+        95.128,
+        8.113,
+        91.281,
+        5.272,
+        94.715,
+        5.058,
+        5.098,
+        92.862,
+        4.868,
+        91.895,
+        4.901,
+        94.365,
+        5.524,
+        4.572,
+        93.136,
+        4.73,
+        92.129,
+        5.523,
+        93.761,
+        4.981,
+        94.966,
+        5.031,
+        4.81,
+        94.06,
+        5.228,
+        90.852,
+        5.239,
+        94.31
+      ]
+    },
+    "concurrencia": {
+      "n": 200,
+      "hilos": 8,
+      "errores": 0,
+      "segundos": 9.207,
+      "solicitudes_por_segundo": 21.7,
+      "p50_ms": 395.23,
+      "p95_ms": 494.83
+    },
+    "lote_50": {
+      "repeticiones": 20,
+      "mediana_ms": 96.72,
+      "ms_por_claim": 1.934
+    }
+  },
+  "pruebas": [
+    {
+      "id": "D-01",
+      "grupo": "Disponibilidad",
+      "descripcion": "GET /health: servicio vivo y modelo íntegro",
+      "esperado": "200, estado ok, SHA-256 verificado",
+      "obtenido": "200, ok, integridad True",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "D-02",
+      "grupo": "Disponibilidad",
+      "descripcion": "GET /api/v1/info: metadatos del modelo",
+      "esperado": "200 y 4 clases",
+      "obtenido": "200, v1.0.0, τ=0.35",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "D-03",
+      "grupo": "Disponibilidad",
+      "descripcion": "GET /: el backend sirve el frontend",
+      "esperado": "200 y HTML de ClaimCheck",
+      "obtenido": "200, HTML con título",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "D-04",
+      "grupo": "Disponibilidad",
+      "descripcion": "GET /static/app.js: cliente JavaScript",
+      "esperado": "200",
+      "obtenido": "200",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "D-05",
+      "grupo": "Disponibilidad",
+      "descripcion": "GET /openapi.json: contrato de la API publicado",
+      "esperado": "6 endpoints documentados",
+      "obtenido": "200, 6/6 endpoints",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "D-06",
+      "grupo": "Disponibilidad",
+      "descripcion": "GET /docs: documentación interactiva (Swagger UI)",
+      "esperado": "200",
+      "obtenido": "200",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-01",
+      "grupo": "Funcional",
+      "descripcion": "Clasificar «Sin gluten»",
+      "esperado": "200, AUSENCIA",
+      "obtenido": "200, AUSENCIA (0.6412)",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-02",
+      "grupo": "Funcional",
+      "descripcion": "Clasificar «Receta tradicional»",
+      "esperado": "200, MARKETING",
+      "obtenido": "200, MARKETING (0.6907)",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-03",
+      "grupo": "Funcional",
+      "descripcion": "Clasificar «Bajo en sodio»",
+      "esperado": "200, NUTRIMENTAL",
+      "obtenido": "200, NUTRIMENTAL (0.4979)",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-04",
+      "grupo": "Funcional",
+      "descripcion": "Clasificar «El calcio es necesario para el manteni»",
+      "esperado": "200, SALUD",
+      "obtenido": "200, SALUD (0.6875)",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-05",
+      "grupo": "Funcional",
+      "descripcion": "Lote de 3 claims conserva el orden",
+      "esperado": "200 y mismo orden",
+      "obtenido": "200, n=3",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-06",
+      "grupo": "Funcional",
+      "descripcion": "Etiqueta sólida (cereal): reglas de fibra, grasa y azúcares",
+      "esperado": "fibra CUMPLE · grasa NO_CUMPLE · azúcares REQUIERE_EVIDENCIA · gluten sin regla",
+      "obtenido": "200, fibra CUMPLE · grasa NO_CUMPLE · azúcares REQUIERE_EVIDENCIA · gluten None",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-07",
+      "grupo": "Funcional",
+      "descripcion": "Etiqueta líquida: umbrales por 100 ml y % de energía",
+      "esperado": "CUMPLE · CUMPLE · NO_CUMPLE (11.1 % < 12 %)",
+      "obtenido": "200, CUMPLE · CUMPLE · NO_CUMPLE",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "F-08",
+      "grupo": "Funcional",
+      "descripcion": "Trazabilidad: la API devuelve X-Request-ID y tiempo de proceso",
+      "esperado": "X-Request-ID = val-001",
+      "obtenido": "200, val-001",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "R-01",
+      "grupo": "Reproducibilidad",
+      "descripcion": "Las 169 predicciones del test vía API = fuera de línea",
+      "esperado": "169/169 iguales",
+      "obtenido": "169/169 iguales, Δconfianza máx 0.0e+00",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "R-02",
+      "grupo": "Reproducibilidad",
+      "descripcion": "Macro-F1 recalculado con las respuestas de la API",
+      "esperado": "= 0.8523 (metadatos)",
+      "obtenido": "0.8523",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "R-03",
+      "grupo": "Reproducibilidad",
+      "descripcion": "Errores del modelo que el sistema marca para el revisor",
+      "esperado": "Métrica (se reporta)",
+      "obtenido": "15/25 errores marcados (τ 12, regla 3)",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-01",
+      "grupo": "Casos extremos",
+      "descripcion": "Texto vacío",
+      "esperado": "422 (validación)",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-02",
+      "grupo": "Casos extremos",
+      "descripcion": "Solo espacios",
+      "esperado": "422 (validación)",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-03",
+      "grupo": "Casos extremos",
+      "descripcion": "Un carácter (mínimo 2)",
+      "esperado": "422 (validación)",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-04",
+      "grupo": "Casos extremos",
+      "descripcion": "301 caracteres (máximo 300)",
+      "esperado": "422 (validación)",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-05",
+      "grupo": "Casos extremos",
+      "descripcion": "Tipo incorrecto (número)",
+      "esperado": "422 (validación)",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-06",
+      "grupo": "Casos extremos",
+      "descripcion": "Campo obligatorio ausente",
+      "esperado": "422 (validación)",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-07",
+      "grupo": "Casos extremos",
+      "descripcion": "Campo no permitido",
+      "esperado": "422 (validación)",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-08",
+      "grupo": "Casos extremos",
+      "descripcion": "Exactamente 300 caracteres (límite)",
+      "esperado": "200",
+      "obtenido": "200",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-09",
+      "grupo": "Casos extremos",
+      "descripcion": "JSON malformado",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-10",
+      "grupo": "Casos extremos",
+      "descripcion": "Content-Type text/plain en lugar de JSON",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-11",
+      "grupo": "Casos extremos",
+      "descripcion": "Lote vacío",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-12",
+      "grupo": "Casos extremos",
+      "descripcion": "Lote de 51 claims (máximo 50)",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-13",
+      "grupo": "Casos extremos",
+      "descripcion": "Lote de 50 claims (límite)",
+      "esperado": "200",
+      "obtenido": "200",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-14",
+      "grupo": "Casos extremos",
+      "descripcion": "Cuerpo de 70 KB (máximo 64 KB)",
+      "esperado": "413",
+      "obtenido": "413",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-15",
+      "grupo": "Casos extremos",
+      "descripcion": "Nutrimento negativo (grasa −1 g)",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-16",
+      "grupo": "Casos extremos",
+      "descripcion": "Sodio fuera de rango (50 000 mg)",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-17",
+      "grupo": "Casos extremos",
+      "descripcion": "Masa imposible (grasa 80 g + proteína 40 g)",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-18",
+      "grupo": "Casos extremos",
+      "descripcion": "Estado físico inválido",
+      "esperado": "422",
+      "obtenido": "422",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-19",
+      "grupo": "Casos extremos",
+      "descripcion": "Límite de regla: «Bajo en grasa» con 3.0 g/100 g",
+      "esperado": "CUMPLE",
+      "obtenido": "200, CUMPLE",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-20",
+      "grupo": "Casos extremos",
+      "descripcion": "Límite de regla: «Bajo en grasa» con 3.01 g/100 g",
+      "esperado": "NO_CUMPLE",
+      "obtenido": "200, NO_CUMPLE",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-21",
+      "grupo": "Casos extremos",
+      "descripcion": "Energía 0 kcal en regla de proteína (división entre cero)",
+      "esperado": "200, DATOS_INSUFICIENTES",
+      "obtenido": "200, DATOS_INSUFICIENTES",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-22",
+      "grupo": "Casos extremos",
+      "descripcion": "Mayúsculas, sin acentos y Unicode descompuesto (NFD)",
+      "esperado": "Misma predicción en las 3 variantes",
+      "obtenido": "idénticas: AUSENCIA",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-23",
+      "grupo": "Casos extremos",
+      "descripcion": "Solo emojis",
+      "esperado": "200, texto devuelto sin interpretar (sin error 500)",
+      "obtenido": "200, MARKETING conf 0.3021, a confirmar",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-24",
+      "grupo": "Casos extremos",
+      "descripcion": "Solo números",
+      "esperado": "200, texto devuelto sin interpretar (sin error 500)",
+      "obtenido": "200, MARKETING conf 0.3258, a confirmar",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-25",
+      "grupo": "Casos extremos",
+      "descripcion": "Inyección HTML/JS",
+      "esperado": "200, texto devuelto sin interpretar (sin error 500)",
+      "obtenido": "200, MARKETING conf 0.3119, a confirmar",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-26",
+      "grupo": "Casos extremos",
+      "descripcion": "Inyección SQL",
+      "esperado": "200, texto devuelto sin interpretar (sin error 500)",
+      "obtenido": "200, MARKETING conf 0.3258, a confirmar",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-27",
+      "grupo": "Casos extremos",
+      "descripcion": "Claim en inglés (fuera del alcance)",
+      "esperado": "200, texto devuelto sin interpretar (sin error 500)",
+      "obtenido": "200, AUSENCIA conf 0.4565, sin marca",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-28",
+      "grupo": "Casos extremos",
+      "descripcion": "Texto fuera del dominio",
+      "esperado": "200, texto devuelto sin interpretar (sin error 500)",
+      "obtenido": "200, SALUD conf 0.3099, a confirmar",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-29",
+      "grupo": "Casos extremos",
+      "descripcion": "Ruta inexistente",
+      "esperado": "404",
+      "obtenido": "404",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "E-30",
+      "grupo": "Casos extremos",
+      "descripcion": "Método no permitido (GET en endpoint POST)",
+      "esperado": "405",
+      "obtenido": "405",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "P-01",
+      "grupo": "Rendimiento",
+      "descripcion": "Latencia secuencial de /clasificar (100 solicitudes)",
+      "esperado": "p95 ≤ 300 ms (umbral de la Actividad 4)",
+      "obtenido": "p50 13.1 ms · p95 95.3 ms · máx 143.3 ms",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "P-02",
+      "grupo": "Rendimiento",
+      "descripcion": "Concurrencia: 200 solicitudes con 8 hilos",
+      "esperado": "0 errores",
+      "obtenido": "0 errores · 22 solicitudes/s · p95 495 ms",
+      "estado": "APROBADA"
+    },
+    {
+      "id": "P-03",
+      "grupo": "Rendimiento",
+      "descripcion": "Lote de 50 claims (20 repeticiones)",
+      "esperado": "Métrica (se reporta)",
+      "obtenido": "mediana 96.7 ms → 1.93 ms por claim",
+      "estado": "APROBADA"
+    }
+  ]
+}

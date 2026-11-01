@@ -1,0 +1,30 @@
+digraph G {
+  graph [rankdir=LR, fontname="DejaVu Sans", fontsize=11, nodesep=0.35, ranksep=0.55, pad=0.25, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=10.5, color="#c9d2cf", fillcolor="white", penwidth=1.2, margin="0.16,0.08"];
+  edge  [fontname="DejaVu Sans", fontsize=9, color="#52514e", arrowsize=0.7];
+
+  revisor [label="Revisor técnico\n(navegador)", shape=box, fillcolor="#f4f6f5"];
+  cliente [label="Otro sistema\n(cliente REST)", fillcolor="#f4f6f5"];
+
+  subgraph cluster_contenedor {
+    label="Contenedor Docker · claimcheck-api:1.0.0  (python:3.12-slim · usuario sin privilegios · HEALTHCHECK /health)";
+    labeljust="l"; fontsize=10; fontcolor="#0e5e57"; style="rounded,dashed"; color="#0e5e57"; penwidth=1.4;
+
+    frontend [label="Frontend\nHTML + CSS + JavaScript\n(fetch → API)", fillcolor="#e1f3ef"];
+    subgraph cluster_api {
+      label="Backend · FastAPI + Uvicorn (puerto $PORT)"; labeljust="l"; labelloc="b"; fontsize=9.5; fontcolor="#1f5fa8"; style="rounded"; color="#9ec5f4";
+      endpoints [label="API REST /api/v1\nclasificar · clasificar/lote\nanalizar-etiqueta · info · reglas\n/health · /docs (OpenAPI)", fillcolor="#e5eefa"];
+      validacion [label="Validación Pydantic\n422 · límite 64 KB (413)", fillcolor="#e5eefa"];
+    }
+    modelo [label="Servicio de modelo\nTF-IDF + regresión logística\nclaimcheck_router_v1.joblib (44 KB)\nverificación SHA-256", fillcolor="#fbeedd"];
+    reglas [label="Motor de reglas\n14 reglas · Reg. (CE) 1924/2006\nveredicto propuesto", fillcolor="#f2e9f8"];
+  }
+
+  revisor -> frontend [label="GET /"];
+  frontend -> validacion [label="POST JSON"];
+  cliente -> validacion [label="POST JSON"];
+  validacion -> endpoints;
+  endpoints -> modelo [label="categoría\n+ confianza"];
+  endpoints -> reglas [label="umbral\nnutrimental"];
+  endpoints -> frontend [xlabel="respuesta JSON", style=dashed, constraint=false];
+}

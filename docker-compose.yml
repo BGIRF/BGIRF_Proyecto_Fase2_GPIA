@@ -1,0 +1,20 @@
+# Ejecución local con un solo comando:  docker compose up --build
+# Los límites de memoria y CPU imitan el plan gratuito de Render (512 MB) para
+# comprobar en local que el servicio cabe en la nube antes de desplegarlo.
+services:
+  api:
+    build:
+      context: .
+      target: runtime
+    image: claimcheck-api:1.0.0
+    container_name: claimcheck-api
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+    env_file:
+      - path: .env
+        required: false
+    mem_limit: 512m
+    cpus: 0.5
+    restart: unless-stopped

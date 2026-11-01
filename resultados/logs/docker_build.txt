@@ -1,0 +1,23 @@
+#1 [internal] load build definition from Dockerfile
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 [internal] load .dockerignore
+#4 [internal] load build context
+#5 [base 1/4] FROM docker.io/library/python:3.12-slim
+#6 [base 3/4] COPY requirements.txt .
+#7 [test 2/8] RUN pip install -r requirements-dev.txt
+#8 [test 1/8] COPY requirements-dev.txt pytest.ini ./
+#9 [base 2/4] WORKDIR /srv/claimcheck
+#10 [base 4/4] RUN pip install -r requirements.txt
+#11 [test 3/8] COPY app/ app/
+#12 [test 4/8] COPY frontend/ frontend/
+#13 [test 5/8] COPY modelos/ modelos/
+#14 [test 6/8] COPY data/ data/
+#15 [test 7/8] COPY tests/ tests/
+#16 [test 8/8] RUN python -m pytest -q && touch /tmp/pruebas_superadas
+#16 2.414 84 passed in 0.61s
+#17 [runtime 1/5] COPY --from=test /tmp/pruebas_superadas /srv/claimcheck/.pruebas_superadas
+#18 [runtime 2/5] RUN useradd --create-home --uid 10001 claimcheck
+#19 [runtime 3/5] COPY app/ app/
+#20 [runtime 4/5] COPY frontend/ frontend/
+#21 [runtime 5/5] COPY modelos/ modelos/
+#22 naming to docker.io/library/claimcheck-api:1.0.0 done

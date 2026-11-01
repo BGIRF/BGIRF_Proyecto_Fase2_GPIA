@@ -1,0 +1,11 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+2026-10-30 03:01:54,652 INFO claimcheck.modelo | Modelo 1.0.0 cargado (4 clases, τ=0.35, SHA-256 verificado)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     172.17.0.1:59204 - "GET /health HTTP/1.1" 200 OK
+2026-10-30 03:01:57,936 INFO claimcheck.api | GET /api/v1/info 200 0.9 ms id=9928e3fd96a7
+2026-10-30 03:01:58,017 INFO claimcheck.api | POST /api/v1/clasificar 200 25.1 ms id=4a9f11d97da6
+2026-10-30 03:01:58,022 INFO claimcheck.api | POST /api/v1/clasificar 200 3.1 ms id=5be5aad52dd0
+2026-10-30 03:01:58,027 INFO claimcheck.api | POST /api/v1/clasificar 200 3.0 ms id=7e1326694389
+2026-10-30 03:01:58,032 INFO claimcheck.api | POST /api/v1/clasificar 200 2.9 ms id=8ac514769ddf

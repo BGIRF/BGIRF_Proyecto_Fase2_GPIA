@@ -1,0 +1,3 @@
+NAME              CPU %     MEM USAGE / LIMIT   MEM %
+claimcheck        0.18%     99.22MiB / 512MiB   19.38%
+claimcheck-free   0.15%     99.07MiB / 512MiB   19.35%

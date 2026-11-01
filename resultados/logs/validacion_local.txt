@@ -1,0 +1,63 @@
+Validando http://localhost:8000  (2026-10-29 21:01:57)
+
+D · Disponibilidad
+  ✔ D-01  GET /health: servicio vivo y modelo íntegro                    → 200, ok, integridad True
+  ✔ D-02  GET /api/v1/info: metadatos del modelo                         → 200, v1.0.0, τ=0.35
+  ✔ D-03  GET /: el backend sirve el frontend                            → 200, HTML con título
+  ✔ D-04  GET /static/app.js: cliente JavaScript                         → 200
+  ✔ D-05  GET /openapi.json: contrato de la API publicado                → 200, 6/6 endpoints
+  ✔ D-06  GET /docs: documentación interactiva (Swagger UI)              → 200
+
+F · Funcionales
+  ✔ F-01  Clasificar «Sin gluten»                                        → 200, AUSENCIA (0.6412)
+  ✔ F-02  Clasificar «Receta tradicional»                                → 200, MARKETING (0.6907)
+  ✔ F-03  Clasificar «Bajo en sodio»                                     → 200, NUTRIMENTAL (0.4979)
+  ✔ F-04  Clasificar «El calcio es necesario para el manteni»            → 200, SALUD (0.6875)
+  ✔ F-05  Lote de 3 claims conserva el orden                             → 200, n=3
+  ✔ F-06  Etiqueta sólida (cereal): reglas de fibra, grasa y azúcares    → 200, fibra CUMPLE · grasa NO_CUMPLE · azúcares REQUIERE_EVID
+  ✔ F-07  Etiqueta líquida: umbrales por 100 ml y % de energía           → 200, CUMPLE · CUMPLE · NO_CUMPLE
+  ✔ F-08  Trazabilidad: la API devuelve X-Request-ID y tiempo de proceso → 200, val-001
+
+R · Reproducibilidad (modelo dentro del contenedor vs. entrenamiento fuera de línea)
+  ✔ R-01  Las 169 predicciones del test vía API = fuera de línea         → 169/169 iguales, Δconfianza máx 0.0e+00
+  ✔ R-02  Macro-F1 recalculado con las respuestas de la API              → 0.8523
+  ✔ R-03  Errores del modelo que el sistema marca para el revisor        → 15/25 errores marcados (τ 12, regla 3)
+
+E · Casos extremos
+  ✔ E-01  Texto vacío                                                    → 422
+  ✔ E-02  Solo espacios                                                  → 422
+  ✔ E-03  Un carácter (mínimo 2)                                         → 422
+  ✔ E-04  301 caracteres (máximo 300)                                    → 422
+  ✔ E-05  Tipo incorrecto (número)                                       → 422
+  ✔ E-06  Campo obligatorio ausente                                      → 422
+  ✔ E-07  Campo no permitido                                             → 422
+  ✔ E-08  Exactamente 300 caracteres (límite)                            → 200
+  ✔ E-09  JSON malformado                                                → 422
+  ✔ E-10  Content-Type text/plain en lugar de JSON                       → 422
+  ✔ E-11  Lote vacío                                                     → 422
+  ✔ E-12  Lote de 51 claims (máximo 50)                                  → 422
+  ✔ E-13  Lote de 50 claims (límite)                                     → 200
+  ✔ E-14  Cuerpo de 70 KB (máximo 64 KB)                                 → 413
+  ✔ E-15  Nutrimento negativo (grasa −1 g)                               → 422
+  ✔ E-16  Sodio fuera de rango (50 000 mg)                               → 422
+  ✔ E-17  Masa imposible (grasa 80 g + proteína 40 g)                    → 422
+  ✔ E-18  Estado físico inválido                                         → 422
+  ✔ E-19  Límite de regla: «Bajo en grasa» con 3.0 g/100 g               → 200, CUMPLE
+  ✔ E-20  Límite de regla: «Bajo en grasa» con 3.01 g/100 g              → 200, NO_CUMPLE
+  ✔ E-21  Energía 0 kcal en regla de proteína (división entre cero)      → 200, DATOS_INSUFICIENTES
+  ✔ E-22  Mayúsculas, sin acentos y Unicode descompuesto (NFD)           → idénticas: AUSENCIA
+  ✔ E-23  Solo emojis                                                    → 200, MARKETING conf 0.3021, a confirmar
+  ✔ E-24  Solo números                                                   → 200, MARKETING conf 0.3258, a confirmar
+  ✔ E-25  Inyección HTML/JS                                              → 200, MARKETING conf 0.3119, a confirmar
+  ✔ E-26  Inyección SQL                                                  → 200, MARKETING conf 0.3258, a confirmar
+  ✔ E-27  Claim en inglés (fuera del alcance)                            → 200, AUSENCIA conf 0.4565, sin marca
+  ✔ E-28  Texto fuera del dominio                                        → 200, SALUD conf 0.3099, a confirmar
+  ✔ E-29  Ruta inexistente                                               → 404
+  ✔ E-30  Método no permitido (GET en endpoint POST)                     → 405
+
+P · Rendimiento
+  ✔ P-01  Latencia secuencial de /clasificar (200 solicitudes)           → p50 4.9 ms · p95 44.3 ms · máx 49.4 ms
+  ✔ P-02  Concurrencia: 400 solicitudes con 16 hilos                     → 0 errores · 128 solicitudes/s · p95 178 ms
+  ✔ P-03  Lote de 50 claims (20 repeticiones)                            → mediana 7.7 ms → 0.15 ms por claim
+
+Resultado: 50/50 pruebas aprobadas · detalle en resultados/validacion_local.json

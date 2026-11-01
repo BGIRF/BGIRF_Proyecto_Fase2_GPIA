@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClaimCheck IA · Revisión de claims</title>
+  <link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="marca">
+      <span class="logo" aria-hidden="true">CC</span>
+      <div>
+        <h1>ClaimCheck IA</h1>
+        <p>CertiBajío, S.C. · Preclasificación de claims de etiquetado</p>
+      </div>
+    </div>
+    <div class="estado" id="estado" role="status" aria-live="polite">
+      <span class="punto"></span><span id="estado-texto">Conectando con la API…</span>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="panel" aria-labelledby="t-entrada">
+      <h2 id="t-entrada">Etiqueta a revisar</h2>
+      <form id="formulario" novalidate>
+        <label for="producto">Producto <span class="opcional">(opcional)</span></label>
+        <input id="producto" name="producto" maxlength="120" placeholder="Ej. Cereal integral de avena">
+
+        <label for="claims">Claims del empaque <span class="opcional">(uno por línea, máximo 30)</span></label>
+        <textarea id="claims" name="claims" rows="6" placeholder="Fuente de fibra&#10;Bajo en grasa&#10;Sin gluten"></textarea>
+
+        <fieldset>
+          <legend>Tabla nutrimental <span class="opcional">(por 100 g o 100 ml, opcional)</span></legend>
+          <div class="segmentado" role="radiogroup" aria-label="Estado físico">
+            <label><input type="radio" name="estado_fisico" value="solido" checked> Sólido (100 g)</label>
+            <label><input type="radio" name="estado_fisico" value="liquido"> Líquido (100 ml)</label>
+          </div>
+          <div class="rejilla">
+            <label>Energía <small>kcal</small><input type="number" step="any" min="0" name="energia_kcal"></label>
+            <label>Grasa <small>g</small><input type="number" step="any" min="0" name="grasa_g"></label>
+            <label>Azúcares <small>g</small><input type="number" step="any" min="0" name="azucares_g"></label>
+            <label>Sodio <small>mg</small><input type="number" step="any" min="0" name="sodio_mg"></label>
+            <label>Fibra <small>g</small><input type="number" step="any" min="0" name="fibra_g"></label>
+            <label>Proteína <small>g</small><input type="number" step="any" min="0" name="proteina_g"></label>
+          </div>
+        </fieldset>
+
+        <div class="acciones">
+          <button type="submit" class="primario" id="btn-analizar">Analizar etiqueta</button>
+          <button type="button" class="secundario" id="btn-ejemplo">Cargar ejemplo</button>
+          <button type="button" class="texto" id="btn-limpiar">Limpiar</button>
+        </div>
+        <p class="error" id="error" role="alert" hidden></p>
+      </form>
+    </section>
+
+    <section class="panel" aria-labelledby="t-resultados">
+      <h2 id="t-resultados">Resultados</h2>
+      <div id="vacio" class="vacio">
+        <p>Escribe los claims o carga el ejemplo y presiona <strong>Analizar etiqueta</strong>.</p>
+        <p class="nota">El modelo enruta cada claim a su checklist; las reglas comparan la tabla nutrimental contra el
+          Reg. (CE) 1924/2006. <strong>La IA propone, el revisor decide.</strong></p>
+      </div>
+      <div id="resultados" hidden>
+        <div class="resumen" id="resumen"></div>
+        <div class="tabla-envoltura">
+          <table>
+            <thead>
+              <tr><th>Claim</th><th>Categoría y checklist</th><th>Confianza</th><th>Regla nutrimental</th></tr>
+            </thead>
+            <tbody id="filas"></tbody>
+          </table>
+        </div>
+        <details>
+          <summary>Ver la respuesta JSON de la API</summary>
+          <pre id="json"></pre>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <span id="pie-modelo">Modelo —</span>
+    <a href="/docs" target="_blank" rel="noopener">Documentación de la API (OpenAPI)</a>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

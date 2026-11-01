@@ -1,0 +1,170 @@
+id_claim,texto_claim,categoria_real,categoria_predicha,confianza,acierto,requiere_confirmacion,dificultad,subtipo
+CLM-0001,Muy bajo en sal,NUTRIMENTAL,NUTRIMENTAL,0.4648,1,0,estandar,contenido_bajo_o_sin
+CLM-0002,"0 % conservadores, 100 % sabor",AUSENCIA,MARKETING,0.3645,0,0,ambiguo,aditivo
+CLM-0004,No contiene huevo ni lácteos,AUSENCIA,AUSENCIA,0.6624,1,0,estandar,alergeno_intolerancia
+CLM-0006,Mejora tu concentración,SALUD,SALUD,0.3858,1,0,estandar,beneficio_generico
+CLM-0008,Empaque 100 % reciclable,MARKETING,MARKETING,0.4868,1,0,estandar,marketing
+CLM-0010,El potasio contribuye al mantenimiento de la tensión arterial normal,SALUD,SALUD,0.7653,1,0,estandar,funcion_nutrimento
+CLM-0011,Elaboración artesanal en pequeños lotes,MARKETING,MARKETING,0.5556,1,0,estandar,marketing
+CLM-0012,Listo en 3 minutos,MARKETING,NUTRIMENTAL,0.3578,0,0,estandar,marketing
+CLM-0014,Receta original,MARKETING,MARKETING,0.5744,1,0,estandar,marketing
+CLM-0015,Ayuda a fortalecer tus defensas,SALUD,SALUD,0.3741,1,0,estandar,beneficio_generico
+CLM-0016,Comercio justo,MARKETING,NUTRIMENTAL,0.2974,0,1,estandar,marketing
+CLM-0017,Sin sal añadida,NUTRIMENTAL,AUSENCIA,0.5873,0,0,ambiguo,contenido_bajo_o_sin
+CLM-0020,Seleccionado a mano,MARKETING,MARKETING,0.2822,1,1,estandar,marketing
+CLM-0022,Bajo contenido de sodio,NUTRIMENTAL,NUTRIMENTAL,0.5823,1,0,estandar,contenido_bajo_o_sin
+CLM-0024,"Con vitamina B6, que contribuye a regular la actividad hormonal",SALUD,SALUD,0.5345,1,0,ambiguo,funcion_nutrimento
+CLM-0025,Ingredientes seleccionados,MARKETING,MARKETING,0.2974,1,1,estandar,marketing
+CLM-0027,Los esteroles vegetales reducen el colesterol sanguíneo; el colesterol elevado es un factor de riesgo de cardiopatía coronaria,SALUD,SALUD,0.3500,1,0,estandar,reduccion_riesgo
+CLM-0028,No contiene nitritos añadidos,AUSENCIA,AUSENCIA,0.5913,1,0,estandar,aditivo
+CLM-0030,No GMO,AUSENCIA,AUSENCIA,0.4191,1,0,estandar,ingrediente_o_produccion
+CLM-0031,El magnesio contribuye a disminuir el cansancio y la fatiga,SALUD,SALUD,0.5059,1,0,estandar,funcion_nutrimento
+CLM-0032,Con la mitad de grasa que la mayonesa tradicional,NUTRIMENTAL,NUTRIMENTAL,0.3661,1,0,estandar,comparativa
+CLM-0033,Barra de granola artesanal,MARKETING,MARKETING,0.3340,1,1,estandar,marketing
+CLM-0035,El favorito de las familias mexicanas,MARKETING,SALUD,0.2845,0,1,estandar,marketing
+CLM-0036,"Con vitamina E, que contribuye a la protección de las células frente al daño oxidativo",SALUD,SALUD,0.5972,1,0,ambiguo,funcion_nutrimento
+CLM-0038,"Con vainilla de Papantla, Veracruz",MARKETING,MARKETING,0.3796,1,0,estandar,marketing
+CLM-0041,Yogur con 30 % menos azúcar,NUTRIMENTAL,NUTRIMENTAL,0.5851,1,0,estandar,comparativa
+CLM-0042,Calidad de exportación,MARKETING,NUTRIMENTAL,0.2903,0,1,estandar,marketing
+CLM-0043,El consumo adecuado de ácido fólico antes y durante el embarazo puede reducir el riesgo de defectos del tubo neural,SALUD,SALUD,0.4388,1,0,estandar,reduccion_riesgo
+CLM-0044,Alto en potasio,NUTRIMENTAL,NUTRIMENTAL,0.5721,1,0,estandar,contenido_alto_o_fuente
+CLM-0045,Cereal con 30 % menos sodio,NUTRIMENTAL,NUTRIMENTAL,0.4428,1,0,estandar,comparativa
+CLM-0047,Alto contenido de fibra,NUTRIMENTAL,NUTRIMENTAL,0.6165,1,0,estandar,contenido_alto_o_fuente
+CLM-0049,Elaborado sin cafeína,AUSENCIA,AUSENCIA,0.6230,1,0,estandar,ingrediente_o_produccion
+CLM-0051,Queso panela con 30 % menos sodio,NUTRIMENTAL,NUTRIMENTAL,0.4091,1,0,estandar,comparativa
+CLM-0053,Ideal para compartir en familia,MARKETING,MARKETING,0.3175,1,1,estandar,marketing
+CLM-0054,Rico en proteína,NUTRIMENTAL,NUTRIMENTAL,0.4652,1,0,estandar,contenido_alto_o_fuente
+CLM-0055,Bajo en azúcares y fuente de fibra,NUTRIMENTAL,NUTRIMENTAL,0.5559,1,0,estandar,contenido_bajo_o_sin
+CLM-0056,Desde 1952,MARKETING,MARKETING,0.2909,1,1,estandar,marketing
+CLM-0057,"Con hierro, que contribuye a la función cognitiva normal",SALUD,SALUD,0.6747,1,0,ambiguo,funcion_nutrimento
+CLM-0058,Pan de caja artesanal,MARKETING,MARKETING,0.4920,1,0,estandar,marketing
+CLM-0060,La vitamina C contribuye al funcionamiento normal del sistema inmunitario,SALUD,SALUD,0.7897,1,0,estandar,funcion_nutrimento
+CLM-0061,"Integral, alto en fibra",NUTRIMENTAL,NUTRIMENTAL,0.5132,1,0,ambiguo,contenido_alto_o_fuente
+CLM-0062,Hecho en Yucatán,MARKETING,MARKETING,0.5862,1,0,estandar,marketing
+CLM-0063,El auténtico sabor de siempre,MARKETING,MARKETING,0.5733,1,0,estandar,marketing
+CLM-0064,"Con hierro, que contribuye a la formación normal de glóbulos rojos y hemoglobina",SALUD,SALUD,0.6554,1,0,ambiguo,funcion_nutrimento
+CLM-0065,No contiene gluten,AUSENCIA,AUSENCIA,0.6858,1,0,estandar,gluten
+CLM-0066,Excelente fuente de fibra,NUTRIMENTAL,NUTRIMENTAL,0.3606,1,0,estandar,contenido_alto_o_fuente
+CLM-0067,Deslactosada,AUSENCIA,MARKETING,0.2932,0,1,ambiguo,alergeno_intolerancia
+CLM-0068,La vitamina D contribuye al funcionamiento normal del sistema inmunitario,SALUD,SALUD,0.7878,1,0,estandar,funcion_nutrimento
+CLM-0070,El DHA contribuye al funcionamiento normal del cerebro,SALUD,SALUD,0.7945,1,0,estandar,funcion_nutrimento
+CLM-0071,Pan de caja fuente de fibra,NUTRIMENTAL,NUTRIMENTAL,0.3780,1,0,estandar,contenido_alto_o_fuente
+CLM-0072,La vitamina C contribuye a la formación normal de colágeno,SALUD,SALUD,0.6842,1,0,estandar,funcion_nutrimento
+CLM-0073,"Con fibra de centeno, que contribuye al funcionamiento intestinal normal",SALUD,SALUD,0.7421,1,0,ambiguo,funcion_nutrimento
+CLM-0075,Formulado sin aceite de palma,AUSENCIA,AUSENCIA,0.6317,1,0,estandar,ingrediente_o_produccion
+CLM-0077,Cero azúcar,NUTRIMENTAL,NUTRIMENTAL,0.5039,1,0,ambiguo,contenido_bajo_o_sin
+CLM-0080,La fibra de salvado de trigo contribuye a acelerar el tránsito intestinal,SALUD,SALUD,0.5108,1,0,estandar,funcion_nutrimento
+CLM-0082,Reduce el riesgo de diabetes tipo 2,SALUD,SALUD,0.3109,1,1,estandar,reduccion_riesgo
+CLM-0083,La vitamina B6 contribuye a regular la actividad hormonal,SALUD,SALUD,0.5095,1,0,estandar,funcion_nutrimento
+CLM-0084,Cultivado de forma sustentable,MARKETING,AUSENCIA,0.2952,0,1,estandar,marketing
+CLM-0085,Hecho a mano,MARKETING,MARKETING,0.5144,1,0,estandar,marketing
+CLM-0086,Sin gluten,AUSENCIA,AUSENCIA,0.6412,1,0,estandar,gluten
+CLM-0087,Apoya tu energía durante todo el día,SALUD,MARKETING,0.4163,0,0,ambiguo,beneficio_generico
+CLM-0089,Nuevo sabor mejorado,MARKETING,MARKETING,0.3957,1,0,estandar,marketing
+CLM-0092,Formulado sin soya,AUSENCIA,AUSENCIA,0.6716,1,0,estandar,alergeno_intolerancia
+CLM-0093,Los betaglucanos de avena contribuyen a mantener niveles normales de colesterol sanguíneo,SALUD,SALUD,0.5451,1,0,estandar,funcion_nutrimento
+CLM-0094,Con 25 g de proteína por porción,NUTRIMENTAL,NUTRIMENTAL,0.6714,1,0,estandar,cantidad_declarada
+CLM-0097,Hecho con ingredientes naturales,MARKETING,MARKETING,0.5106,1,0,ambiguo,marketing
+CLM-0099,Libre de gluten: menos de 20 mg/kg,AUSENCIA,AUSENCIA,0.4771,1,0,estandar,gluten
+CLM-0100,Una dieta baja en grasas saturadas y colesterol puede reducir el riesgo de enfermedad cardiaca,SALUD,NUTRIMENTAL,0.3926,0,0,estandar,reduccion_riesgo
+CLM-0101,El ácido fólico contribuye a la síntesis normal de aminoácidos,SALUD,SALUD,0.6333,1,0,estandar,funcion_nutrimento
+CLM-0104,El hierro contribuye a la función cognitiva normal,SALUD,SALUD,0.7107,1,0,estandar,funcion_nutrimento
+CLM-0106,Para un corazón sano,SALUD,SALUD,0.2718,1,1,estandar,beneficio_generico
+CLM-0107,Bajo en colesterol,NUTRIMENTAL,NUTRIMENTAL,0.4345,1,0,estandar,contenido_bajo_o_sin
+CLM-0108,Fuente de potasio,NUTRIMENTAL,NUTRIMENTAL,0.3837,1,0,estandar,contenido_alto_o_fuente
+CLM-0109,Bajo en sodio,NUTRIMENTAL,NUTRIMENTAL,0.4979,1,0,estandar,contenido_bajo_o_sin
+CLM-0110,Bebida de avena adicionada con vitamina D,NUTRIMENTAL,NUTRIMENTAL,0.3628,1,0,estandar,contenido_alto_o_fuente
+CLM-0111,Una porción cubre el 50 % de tu requerimiento diario de vitamina C,NUTRIMENTAL,SALUD,0.3568,0,0,estandar,cantidad_declarada
+CLM-0112,Rico en fibra que favorece el tránsito intestinal,SALUD,SALUD,0.3170,1,1,ambiguo,funcion_nutrimento
+CLM-0113,Sin grasa,NUTRIMENTAL,NUTRIMENTAL,0.4546,1,0,ambiguo,contenido_bajo_o_sin
+CLM-0115,Del campo a tu mesa,MARKETING,SALUD,0.3912,0,0,estandar,marketing
+CLM-0116,"Con yodo, que contribuye a la función cognitiva normal",SALUD,SALUD,0.6901,1,0,ambiguo,funcion_nutrimento
+CLM-0118,Sin lactosa,AUSENCIA,AUSENCIA,0.6017,1,0,estandar,alergeno_intolerancia
+CLM-0119,Sin ingredientes de origen animal,AUSENCIA,AUSENCIA,0.4858,1,0,ambiguo,ingrediente_o_produccion
+CLM-0120,Alto contenido de hierro,NUTRIMENTAL,NUTRIMENTAL,0.5992,1,0,estandar,contenido_alto_o_fuente
+CLM-0122,Salsa de tomate de receta original,MARKETING,MARKETING,0.5281,1,0,estandar,marketing
+CLM-0123,Sin glutamato monosódico añadido,AUSENCIA,AUSENCIA,0.5838,1,0,estandar,aditivo
+CLM-0125,Libre de conservadores,AUSENCIA,AUSENCIA,0.7465,1,0,estandar,aditivo
+CLM-0126,Sin saborizantes artificiales,AUSENCIA,AUSENCIA,0.5171,1,0,estandar,aditivo
+CLM-0128,Elaborado sin glutamato monosódico,AUSENCIA,AUSENCIA,0.5774,1,0,estandar,aditivo
+CLM-0129,Favorece una digestión saludable,SALUD,MARKETING,0.3042,0,1,estandar,beneficio_generico
+CLM-0130,Elaborado con leche de vacas de pastoreo de Los Altos de Jalisco,MARKETING,MARKETING,0.3543,1,0,estandar,marketing
+CLM-0131,Puro jugo de naranja,MARKETING,MARKETING,0.2813,1,1,ambiguo,marketing
+CLM-0132,Salsa de tomate con 25 % menos azúcar,NUTRIMENTAL,NUTRIMENTAL,0.6922,1,0,estandar,comparativa
+CLM-0134,Nueva presentación,MARKETING,MARKETING,0.2733,1,1,estandar,marketing
+CLM-0135,No contiene colorantes artificiales,AUSENCIA,AUSENCIA,0.6413,1,0,estandar,aditivo
+CLM-0136,Sin conservadores,AUSENCIA,AUSENCIA,0.7294,1,0,estandar,aditivo
+CLM-0138,Natural y saludable,SALUD,MARKETING,0.5297,0,0,ambiguo,beneficio_generico
+CLM-0139,Cereal adicionado con vitamina D,NUTRIMENTAL,MARKETING,0.3120,0,1,estandar,contenido_alto_o_fuente
+CLM-0140,Sin transgénicos,AUSENCIA,AUSENCIA,0.5733,1,0,estandar,ingrediente_o_produccion
+CLM-0141,Alto en ácidos grasos omega-3,NUTRIMENTAL,NUTRIMENTAL,0.4817,1,0,estandar,contenido_alto_o_fuente
+CLM-0142,Café de altura de Chiapas,MARKETING,NUTRIMENTAL,0.3015,0,1,estandar,marketing
+CLM-0143,Contribuye a tu bienestar,SALUD,SALUD,0.6167,1,0,ambiguo,beneficio_generico
+CLM-0144,"Masticar chicle sin azúcar ayuda a neutralizar los ácidos de la placa dental, un factor de riesgo de caries",SALUD,SALUD,0.3525,1,0,estandar,reduccion_riesgo
+CLM-0146,Bajo contenido de grasas saturadas,NUTRIMENTAL,NUTRIMENTAL,0.7423,1,0,estandar,contenido_bajo_o_sin
+CLM-0147,Tostado lentamente para un sabor más profundo,MARKETING,MARKETING,0.3233,1,1,estandar,marketing
+CLM-0149,Sin cafeína,AUSENCIA,AUSENCIA,0.6222,1,0,estandar,ingrediente_o_produccion
+CLM-0150,"La fibra soluble de la avena, como parte de una dieta baja en grasas saturadas, puede reducir el riesgo de enfermedad coronaria",SALUD,NUTRIMENTAL,0.3578,0,0,estandar,reduccion_riesgo
+CLM-0151,Las proteínas contribuyen a conservar la masa muscular,SALUD,SALUD,0.3788,1,0,estandar,funcion_nutrimento
+CLM-0152,Menos de 5 kcal por lata,NUTRIMENTAL,NUTRIMENTAL,0.5357,1,0,estandar,contenido_bajo_o_sin
+CLM-0154,El calcio contribuye al funcionamiento normal de los músculos,SALUD,SALUD,0.8113,1,0,estandar,funcion_nutrimento
+CLM-0155,Barra de granola alta en proteína,NUTRIMENTAL,NUTRIMENTAL,0.4842,1,0,estandar,contenido_alto_o_fuente
+CLM-0156,Libre de aceite de palma,AUSENCIA,AUSENCIA,0.5575,1,0,estandar,ingrediente_o_produccion
+CLM-0157,Sin aceite de palma,AUSENCIA,AUSENCIA,0.5466,1,0,estandar,ingrediente_o_produccion
+CLM-0159,Sin calorías,NUTRIMENTAL,AUSENCIA,0.5762,0,0,estandar,contenido_bajo_o_sin
+CLM-0161,50 % menos sodio que la versión original,NUTRIMENTAL,NUTRIMENTAL,0.4670,1,0,estandar,comparativa
+CLM-0162,Fuente natural de fibra,NUTRIMENTAL,MARKETING,0.3665,0,0,ambiguo,contenido_alto_o_fuente
+CLM-0163,25 % menos sodio que nuestras papas originales,NUTRIMENTAL,NUTRIMENTAL,0.5253,1,0,estandar,comparativa
+CLM-0164,Calidad premium,MARKETING,MARKETING,0.3026,1,1,estandar,marketing
+CLM-0165,Sin nitritos ni nitratos añadidos,AUSENCIA,AUSENCIA,0.4903,1,0,estandar,aditivo
+CLM-0167,Mango Ataulfo del Soconusco,MARKETING,SALUD,0.3433,0,1,estandar,marketing
+CLM-0169,Leche con 25 % menos grasa,NUTRIMENTAL,NUTRIMENTAL,0.6330,1,0,estandar,comparativa
+CLM-0171,Libre de lactosa,AUSENCIA,AUSENCIA,0.6060,1,0,estandar,alergeno_intolerancia
+CLM-0173,"Gracias a su contenido de hierro, ayuda a reducir el cansancio",SALUD,NUTRIMENTAL,0.3489,0,1,ambiguo,funcion_nutrimento
+CLM-0175,Bajo valor energético,NUTRIMENTAL,NUTRIMENTAL,0.3670,1,0,estandar,contenido_bajo_o_sin
+CLM-0177,"Con ácido fólico, que contribuye a la síntesis normal de aminoácidos",SALUD,SALUD,0.6335,1,0,ambiguo,funcion_nutrimento
+CLM-0178,Elaborado sin saborizantes artificiales,AUSENCIA,AUSENCIA,0.5729,1,0,estandar,aditivo
+CLM-0179,Aporta el 30 % del valor diario recomendado de calcio,NUTRIMENTAL,SALUD,0.3275,0,1,estandar,cantidad_declarada
+CLM-0180,Sin azúcar añadido; contiene azúcares naturalmente presentes,NUTRIMENTAL,AUSENCIA,0.4575,0,0,ambiguo,contenido_bajo_o_sin
+CLM-0181,Yogur con 30 % menos grasa,NUTRIMENTAL,NUTRIMENTAL,0.5936,1,0,estandar,comparativa
+CLM-0183,Receta tradicional de Puebla,MARKETING,MARKETING,0.7114,1,0,estandar,marketing
+CLM-0184,Sabor intenso,MARKETING,MARKETING,0.4209,1,0,estandar,marketing
+CLM-0185,No contiene lactosa,AUSENCIA,AUSENCIA,0.6063,1,0,estandar,alergeno_intolerancia
+CLM-0187,Buena fuente de magnesio,NUTRIMENTAL,NUTRIMENTAL,0.4766,1,0,estandar,contenido_alto_o_fuente
+CLM-0188,Una ingesta adecuada de calcio y vitamina D a lo largo de la vida puede reducir el riesgo de osteoporosis,SALUD,SALUD,0.4556,1,0,estandar,reduccion_riesgo
+CLM-0189,Elaborado sin cacahuate,AUSENCIA,AUSENCIA,0.6397,1,0,estandar,alergeno_intolerancia
+CLM-0191,Pollo criado sin antibióticos,AUSENCIA,AUSENCIA,0.5644,1,0,ambiguo,ingrediente_o_produccion
+CLM-0192,Hecho con fruta real,MARKETING,MARKETING,0.4934,1,0,ambiguo,marketing
+CLM-0193,Galletas con 30 % menos azúcar,NUTRIMENTAL,NUTRIMENTAL,0.6568,1,0,estandar,comparativa
+CLM-0194,Galletas con 25 % menos azúcar,NUTRIMENTAL,NUTRIMENTAL,0.6931,1,0,estandar,comparativa
+CLM-0195,Ligero y crujiente,MARKETING,MARKETING,0.4209,1,0,ambiguo,marketing
+CLM-0196,Madurado 12 meses,MARKETING,MARKETING,0.2831,1,1,estandar,marketing
+CLM-0197,Light: 30 % menos calorías que la versión regular,NUTRIMENTAL,NUTRIMENTAL,0.5434,1,0,estandar,comparativa
+CLM-0198,Reducido en azúcares: 30 % menos que el producto de referencia,NUTRIMENTAL,NUTRIMENTAL,0.5171,1,0,estandar,comparativa
+CLM-0199,Queso panela de calidad superior,MARKETING,MARKETING,0.4347,1,0,estandar,marketing
+CLM-0201,Leche descremada: 0.5 % de grasa,NUTRIMENTAL,NUTRIMENTAL,0.4008,1,0,estandar,cantidad_declarada
+CLM-0203,Bebida de avena con el sabor de siempre,MARKETING,MARKETING,0.5780,1,0,estandar,marketing
+CLM-0204,Sin edulcorantes artificiales,AUSENCIA,AUSENCIA,0.5342,1,0,ambiguo,aditivo
+CLM-0205,No contiene glutamato monosódico,AUSENCIA,AUSENCIA,0.5715,1,0,estandar,aditivo
+CLM-0206,Pan de caja de receta original,MARKETING,MARKETING,0.5666,1,0,estandar,marketing
+CLM-0207,Elaborado en una planta libre de cacahuate,AUSENCIA,AUSENCIA,0.5447,1,0,estandar,alergeno_intolerancia
+CLM-0208,No contiene transgénicos,AUSENCIA,AUSENCIA,0.6236,1,0,estandar,ingrediente_o_produccion
+CLM-0211,El magnesio contribuye al funcionamiento normal de los músculos,SALUD,SALUD,0.7605,1,0,estandar,funcion_nutrimento
+CLM-0212,No contiene aceite de palma,AUSENCIA,AUSENCIA,0.5767,1,0,estandar,ingrediente_o_produccion
+CLM-0213,Sin colorantes artificiales,AUSENCIA,AUSENCIA,0.5881,1,0,estandar,aditivo
+CLM-0216,Rico en vitamina D,NUTRIMENTAL,NUTRIMENTAL,0.4590,1,0,estandar,contenido_alto_o_fuente
+CLM-0217,El hierro contribuye a disminuir el cansancio y la fatiga,SALUD,SALUD,0.5820,1,0,estandar,funcion_nutrimento
+CLM-0218,Ayuda a prevenir enfermedades del corazón,SALUD,SALUD,0.3871,1,0,estandar,reduccion_riesgo
+CLM-0219,Alto en proteína,NUTRIMENTAL,NUTRIMENTAL,0.5867,1,0,estandar,contenido_alto_o_fuente
+CLM-0220,Adicionado con vitaminas A y D,NUTRIMENTAL,NUTRIMENTAL,0.3780,1,0,estandar,contenido_alto_o_fuente
+CLM-0221,Las dietas bajas en sodio pueden reducir el riesgo de hipertensión arterial,SALUD,SALUD,0.3134,1,1,estandar,reduccion_riesgo
+CLM-0222,Atún en agua elaborado en pequeños lotes,MARKETING,MARKETING,0.4954,1,0,estandar,marketing
+CLM-0224,"Con magnesio, que contribuye a disminuir el cansancio y la fatiga",SALUD,SALUD,0.5188,1,0,ambiguo,funcion_nutrimento
+CLM-0226,Libre de frutos secos,AUSENCIA,AUSENCIA,0.6112,1,0,estandar,alergeno_intolerancia
+CLM-0229,Sin aditivos,AUSENCIA,AUSENCIA,0.5954,1,0,estandar,aditivo
+CLM-0230,Elaborado sin aceite de palma,AUSENCIA,AUSENCIA,0.5802,1,0,estandar,ingrediente_o_produccion
+CLM-0232,Sin azúcares añadidos,NUTRIMENTAL,AUSENCIA,0.5672,0,0,ambiguo,contenido_bajo_o_sin
+CLM-0234,Hecho en México,MARKETING,MARKETING,0.5971,1,0,estandar,marketing
+CLM-0237,La vitamina D contribuye al mantenimiento de los huesos y dientes en condiciones normales,SALUD,SALUD,0.7865,1,0,estandar,funcion_nutrimento
+CLM-0238,Libre de soya,AUSENCIA,AUSENCIA,0.6245,1,0,estandar,alergeno_intolerancia
+CLM-0240,El doble de calcio que la leche entera,NUTRIMENTAL,SALUD,0.3415,0,1,estandar,comparativa

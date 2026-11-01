@@ -1,0 +1,3 @@
+# Solo para regenerar figuras y reportes (src/evaluar_modelo.py). No va en la imagen.
+-r requirements.txt
+matplotlib==3.11.2

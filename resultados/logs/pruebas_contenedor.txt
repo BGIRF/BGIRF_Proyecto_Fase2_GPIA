@@ -1,0 +1,8 @@
+C-01 Usuario de ejecución: claimcheck (uid 10001)
+C-02 Escritura sobre el código como usuario de la app: touch: cannot touch 'app/prueba.txt': Permission denied
+C-03 Escritura sobre el modelo: sh: 1: cannot create modelos/claimcheck_router_v1.joblib: Permission denied
+C-04 Modelo alterado montado en el contenedor → estado: exited (exit 3); log: ErrorIntegridad: SHA-256 del modelo no coincide (esperado 3b96cfeffab2…, obtenido ffd0b0ac68b5…)
+C-05 PORT=10000 (como Render) → {"estado":"ok","version_api":"1.0.0","version_modelo":"1.0.0","modelo_cargado":true,"integridad_verificada":true}; log: Uvicorn running on http://0.0.0.0:10000
+C-06 HEALTHCHECK con PORT=10000 → healthy
+C-07 docker compose up -d → claimcheck-api Up 6 seconds (healthy); límites: Memory=536870912 NanoCpus=500000000
+C-08 Respuesta vía compose: AUSENCIA 0.6412 CL-AUS · Evidencia analítica y control de alérgenos
